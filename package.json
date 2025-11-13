@@ -1,0 +1,38 @@
+{
+  "name": "intern-tracking-backend",
+  "version": "1.0.0",
+  "description": "Backend for Intern Attendance & Monitoring System",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js",
+    "seed": "node scripts/seedData.js"
+  },
+  "keywords": [
+    "attendance",
+    "tracking",
+    "intern",
+    "monitoring"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongoose": "^8.0.3",
+    "bcryptjs": "^2.4.3",
+    "jsonwebtoken": "^9.0.2",
+    "dotenv": "^16.3.1",
+    "cors": "^2.8.5",
+    "nodemailer": "^6.9.7",
+    "express-validator": "^7.0.1",
+    "morgan": "^1.10.0",
+    "helmet": "^7.1.0",
+    "express-rate-limit": "^7.1.5",
+    "cookie-parser": "^1.4.6",
+    "node-cron": "^3.0.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
+}
